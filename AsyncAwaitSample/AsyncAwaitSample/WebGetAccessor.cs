@@ -73,7 +73,6 @@ namespace AsyncAwaitSample {
             if (!response.IsSuccessStatusCode) {
                 throw new HttpRequestException("Request Failed!");
             }
-
         }
 
         public async Task FireAsync() {
