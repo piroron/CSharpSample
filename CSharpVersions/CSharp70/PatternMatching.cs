@@ -49,5 +49,16 @@ namespace CSharp70
 
             public string Message { get; }
         }
+
+        // 下記の処理はC#7.1以降では有効
+
+        //private void Run<T>(T value)
+        //{
+        //    switch(value)
+        //    {
+        //        case string v:
+        //            break;
+        //    }
+        //}
     }
 }
